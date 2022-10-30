@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='footer'>
       <h4 className='footer_port'>Portfolio</h4>
       <div>
-          <p className='footer_para'>Dribbble is the worlds leading community
+          <p className='footer_para'>Portfolio is the worlds leading community
            for creatives to share, grow, and get hired.</p>
           
       </div>  
@@ -32,11 +32,35 @@ const Footer = () => {
     
   </div>
   <div className="row row-cols-5">
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
+    <div className="col">Tutorial</div>
+    <div className="col">Web Design</div>
+    <div className="col">Career</div>
+    <div className="col">Gallery</div>
+    <div className="col">Templates</div>
+    
+  </div>
+  <div className="row row-cols-5">
+    <div className="col">Magzines</div>
+    <div className="col">Work</div>
+    <div className="col">Topics</div>
+    <div className="col">Help</div>
+    <div className="col">Service</div>
+    
+  </div>
+  <div className="row row-cols-5">
+    <div className="col">Jobs</div>
+    <div className="col">Designers</div>
+    <div className="col">Logos</div>
+    <div className="col">Graphics</div>
+    <div className="col">Newsletter</div>
+    
+  </div>
+  <div className="row row-cols-5">
+    <div className="col">Pages</div>
+    <div className="col">Testimonials</div>
+    <div className="col">About</div>
+    <div className="col">Portfolio</div>
+    <div className="col">Privacy</div>
     
   </div>
   <div className="row row-cols-5">
@@ -48,35 +72,11 @@ const Footer = () => {
     
   </div>
   <div className="row row-cols-5">
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    
-  </div>
-  <div className="row row-cols-5">
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    
-  </div>
-  <div className="row row-cols-5">
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    
-  </div>
-  <div className="row row-cols-5">
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
+    <div className="col">Settings</div>
+    <div className="col">Tours</div>
+    <div className="col">Travels</div>
+    <div className="col">Policies</div>
+    <div className="col">Terms</div>
     
   </div>
         
