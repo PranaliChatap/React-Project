@@ -46,8 +46,6 @@ const storeData = async(e) => {
 
 }
 
-
-
   return (
    
     <div className="container mt-5 contact">
@@ -72,7 +70,7 @@ const storeData = async(e) => {
             <input type='text' row='3' value={message} onChange={handleMessageChange} required />
           </label>
         </div>
-        <button onClick={storeData} className="btn btn-info hire-button">
+        <button onClick={storeData} className="btn btn-info submit hire-button">
          Submit
         </button>
       </form>
