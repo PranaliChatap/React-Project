@@ -8,10 +8,10 @@ const About = () => {
       
       <div className='container'>
         <div className='item'>Hey there!<br/>
-        I'm Pranali Chatap Independent <span className='free'>Designer</span>
+        I'm Lorem Ipsum Independent <span className='free'>Designer</span>
         <div>
             <p  className='para0'>I create thousands of website</p>
-            <button type="button" className="btn btn-info hire-button">Hire Me</button>
+            <button type="button" className="btn btn-info hire-button">Connect</button>
         </div>        
         </div>
         <div className='item'>
