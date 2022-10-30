@@ -324,6 +324,10 @@ form input{
     width: 80px;
 }
 
+.submit{
+    margin-left: 70px;
+}
+
 /* Footer.css */
 
 .footer_container{
