@@ -63,14 +63,7 @@ const Footer = () => {
     <div className="col">Privacy</div>
     
   </div>
-  <div className="row row-cols-5">
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-    
-  </div>
+ 
   <div className="row row-cols-5">
     <div className="col">Settings</div>
     <div className="col">Tours</div>
