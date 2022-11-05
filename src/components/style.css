@@ -739,7 +739,7 @@ form input{
     font-weight: 600;
 }
 
-media (min-width: 481px) and (max-width: 580px) {
+@media (min-width: 481px) and (max-width: 580px) {
     .carousel_container{
         margin-left: 50px;
        
