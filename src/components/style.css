@@ -1,5 +1,7 @@
 *{
     font-family: system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 /* Navbar.css */
@@ -84,6 +86,53 @@
     right: 100px;
     
 }
+
+@media (min-width: 481px) and (max-width: 580px) {
+    .container{    
+    background-color: white;
+    margin: auto;
+    padding-left: 30px;
+    max-width: 780px;
+   
+    }
+
+    .item{
+        padding-top: 65px;
+        padding-left: 0px;
+        font-size: 28px;
+        line-height: 2.6rem;
+       
+    }
+
+    .img_1{
+   
+        width: 120%;
+        height: 90%;
+        position: relative; 
+        right: 30px;
+        
+    }
+
+    .para0{
+        max-width: 80%;
+        margin-top: 20px;
+        font-size: 10px;
+        letter-spacing: 0.6px;
+        font-weight: 600;
+        padding-left: 10px;
+       
+    }
+
+    .hire-button{
+    
+        padding: 8px 16px 8px 16px;
+        font-size: 14px;
+        margin-top: 15px;
+        
+    }
+    
+}
+
 
 /* Work.css */
 
@@ -198,6 +247,115 @@
     
 }
 
+@media (min-width: 481px) and (max-width: 580px) {
+    .img_2{
+        width: 220px;
+        height: 340px;
+        margin: 4px;
+        padding: 4px;
+       
+    }
+
+    .work_container{
+        position: relative;
+        margin-top: 30px;
+        padding-bottom: 40px;
+
+    }
+
+    .para{
+        letter-spacing: 2px;
+        line-height: 1;
+        font-size: 14px;
+        position: relative;
+        top: 20px;
+        right: 0px;
+        margin-left: 10px;
+       
+    }
+
+    .para1{
+        position: relative;
+        top: 40px;
+        right: 0px;
+        width: 250px;
+        font-size: 25px;
+        margin-left: 10px;
+    }    
+
+    .para2{
+        font-size: 12px;
+        font-weight: 350;
+        position: relative;
+        top: 30px;
+        right: 0px;
+        line-height: 1.2rem;
+        width: 250px;
+        margin-left: 10px;
+        
+    }
+    
+    .para3,.para4, .para5{
+        position: relative;
+        top: 20px;
+        right: 0px;
+        font-size: 14px;
+        margin-left: 10px;
+    
+    }
+ 
+     
+}
+
+
+/* Project.css */
+
+.project_div{
+    margin-top: 100px;
+}
+
+.project_port{
+    text-align: center;
+    text-transform: uppercase;
+    color: #1abed7;
+    letter-spacing: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.project_work{
+    color: black;
+    font-size: 42px;
+    font-weight: 650;
+    text-align: center;
+    
+}
+
+.slider{
+    width: 90%;
+    position: relative;
+    left: 80px;
+    
+}
+
+@media (min-width: 481px) and (max-width: 580px) {
+    .project_div{
+        margin-top: 80px;
+    }
+
+    .project_port{
+        font-size: 16px;
+       
+    }
+
+    .project_work{
+        font-size: 28px;
+        
+    }
+}
+
 /* Slider.css */
 
 .slider_img{
@@ -220,6 +378,39 @@
     font-size: 14px;
     font-weight: 350;
     line-height: 0;
+}
+
+@media (min-width: 481px) and (max-width: 580px) {
+    .slider_img{
+        width: 200px;
+        padding: 0px;
+
+    }
+    
+    .view{
+        position: relative;
+       right: 14px;
+       padding: 4px 10px;
+    }
+
+    .slider{
+       position: relative;
+       left: 25px;
+       
+    }
+
+    .slider_container{
+        padding: 40px;
+    }
+
+    .slide_para, .small_para{
+        text-align: left;
+        position: relative;
+        left: 0px;
+        font-size: 16px;
+
+    }
+    
 }
 
 /* Skill.css */
@@ -277,6 +468,56 @@
     
 }
 
+@media (min-width: 481px) and (max-width: 580px) {
+    .skill{
+        position: relative;
+        left: 0;
+    }
+    
+    .skill_para{
+        font-size: 14px;
+        line-height: 0.6;
+    }
+
+    .skill_para1{
+        width: 240px;
+        line-height: 1.3;
+        font-size: 26px;
+        
+    }
+    .skill_para2{
+        width: 240px;  
+        letter-spacing: 0.6px;
+        font-size: 12px;
+        padding-top: 26px;
+    }
+    
+    .img_3{
+        position: relative;
+        right: 10px;
+        width: 200px; 
+        padding-bottom: 100px;
+
+    }
+
+    .img_4{
+        margin-top: 120px;
+        width: 70%;
+        margin-left: 60px;
+    }
+    
+    .img_5{
+        margin-top: 80px;
+        width: 80%;
+        position: relative;
+        bottom: 100px;
+        right: 0px;
+        
+    }
+    
+}    
+
+
 /* Contact.css */
 
 /* .contact{
@@ -326,6 +567,36 @@ form input{
 
 .submit{
     margin-left: 70px;
+}
+
+@media (min-width: 481px) and (max-width: 580px) {
+    .form_container{
+        position: relative;
+        right: 0px;
+        margin-top: 60px;
+        max-width: 50%;         
+    }
+
+    .contact_head{
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        left: 130px;  
+    
+    }
+    
+    .form{
+       
+        position: relative;
+        right:  100px;
+
+    }
+
+    .img_6{
+        position: relative;
+        left: 90%;
+      
+    }
 }
 
 /* Footer.css */
@@ -390,6 +661,46 @@ form input{
     padding: 6px;
 }
 
+@media (min-width: 481px) and (max-width: 580px) {
+    .footer_port{
+        font-size: 20px;
+    }
+
+    .footer{
+        margin-top: 28px;
+        margin-bottom:26px;
+    }
+    
+    .footer_para{
+        width: 42%;
+        font-size: 12px;
+    }
+
+    .row{
+        position: relative;
+        right: 79%;
+        width: 170%;
+        font-size: 12px;
+        padding: 0px 4px;        
+    }
+    
+    .col_head{
+        font-size: 14px;
+       
+    }
+    
+    .bi{
+        font-size: 18px;
+        padding: 5px;  
+     }
+    
+    .footer_last{
+        font-size: 12px;
+
+    }   
+}
+
+
 /* Testimonial.css */
 
 .carousel_container{
@@ -426,6 +737,32 @@ form input{
     color: white;
     font-size: 20px;
     font-weight: 600;
+}
+
+media (min-width: 481px) and (max-width: 580px) {
+    .carousel_container{
+        margin-left: 50px;
+       
+    }
+    
+    .test{
+        font-size: 18px;
+    }
+
+    .test_customer{
+        
+        font-size: 24px;
+    }
+    
+    .test_name{
+       font-size: 16px;
+    }
+    
+    .test_content{
+     
+        font-size: 10px;
+    }
+
 }
 
 
